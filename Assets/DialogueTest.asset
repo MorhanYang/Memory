@@ -413,7 +413,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay({{end}})
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: LyingChance
@@ -468,7 +468,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -601,8 +601,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210.49344
-        y: 124.285706
+        x: 208.76932
+        y: 144.97536
         width: 160
         height: 30
     - id: 13
@@ -770,7 +770,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence;
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -1598,8 +1598,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 270
+        x: 327.41382
+        y: 224.31033
         width: 160
         height: 30
     - id: 31

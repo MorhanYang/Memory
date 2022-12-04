@@ -25,6 +25,7 @@ public class ChangScanColor : MonoBehaviour
     {
         lyingChance=lie;
         scanPanel.SetActive(false);
+        Debug.Log ("ChangingPage");
     }
 
     public void ChangeScan()
