@@ -41,9 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: character
+    uniqueID: 2619296975
+    locked: 0
   - name: UI
     uniqueID: 2461144819
-    locked: 0
-  - name: New Layer 2
-    uniqueID: 2619296975
     locked: 0
