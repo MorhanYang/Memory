@@ -2970,7 +2970,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626370776}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e3e545dbde3bb94e801be7432be527b, type: 3}
   m_Name: 
@@ -3460,6 +3460,7 @@ GameObject:
   - component: {fileID: 789976690}
   - component: {fileID: 789976689}
   - component: {fileID: 789976688}
+  - component: {fileID: 789976693}
   m_Layer: 5
   m_Name: Response Button 0
   m_TagString: Untagged
@@ -3476,7 +3477,7 @@ RectTransform:
   m_GameObject: {fileID: 789976686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1597841864}
@@ -3601,7 +3602,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 0, a: 1}
@@ -3664,6 +3665,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789976686}
   m_CullTransparentMesh: 0
+--- !u!95 &789976693
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789976686}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eeb2a0ef915e48f4c8647fe7d08b90a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &793636285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,7 +6453,7 @@ GameObject:
   - component: {fileID: 1466316043}
   - component: {fileID: 1466316042}
   m_Layer: 5
-  m_Name: crabPanel
+  m_Name: PlayerPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7809,7 +7830,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 80237f03ef0d61a4db728f0f0bd82dcf, type: 2}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: displaySettings.subtitleSettings.continueButton
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: displaySettings.inputSettings.responseTimeoutAction
@@ -9317,7 +9338,7 @@ GameObject:
   - component: {fileID: 2029812818}
   - component: {fileID: 2029812817}
   m_Layer: 5
-  m_Name: BradPanel
+  m_Name: NPCPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9517,7 +9538,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   panel: {fileID: 2029812816}
-  portraitImage: {fileID: 0}
+  portraitImage: {fileID: 2035470634}
   portraitName:
     m_uiText: {fileID: 0}
   subtitleText:
