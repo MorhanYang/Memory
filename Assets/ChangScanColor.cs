@@ -24,6 +24,7 @@ public class ChangScanColor : MonoBehaviour
     public void ChangeLyingTo(int lie)
     {
         lyingChance=lie;
+        scanPanel.SetActive(false);
     }
 
     public void ChangeScan()
