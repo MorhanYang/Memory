@@ -2438,7 +2438,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: -1
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2476,19 +2476,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 'SetQuestState("Bar-Greeting", "unassigned");
-
-        Variable["Bar_Greeting"]
-        = true;
-
-        SetQuestState("Bar-Greeting", "unassigned")'
+      userScript: Variable["Bar_Greeting"] = true;
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 107.02913
-        y: 168.767
+        x: 109.94176
+        y: 170.70876
         width: 160
         height: 30
     entryGroups: []
