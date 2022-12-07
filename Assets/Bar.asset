@@ -2250,16 +2250,16 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Actor
-      value: 1
+      value: 5
       type: 5
       typeString: CustomFieldType_Actor
     - title: Conversant
-      value: 2
+      value: -1
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
-      useOverrides: 0
-      overrideSubtitleSettings: 0
+      useOverrides: 1
+      overrideSubtitleSettings: 1
       showNPCSubtitlesDuringLine: 1
       showNPCSubtitlesWithResponses: 1
       showPCSubtitlesDuringLine: 0
@@ -2296,11 +2296,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2367,7 +2367,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2387,7 +2387,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence;
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2419,8 +2419,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 70
+        x: 75
+        y: 80
         width: 160
         height: 30
     - id: 2
@@ -2434,11 +2434,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2482,13 +2482,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28
-        y: 118
+        x: 108
+        y: 161
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 13.543668, y: 5.825229}
+    canvasZoom: 1.03
   - id: 8
     fields:
     - title: Title
@@ -2740,7 +2740,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
+        x: 29.076935
         y: 120
         width: 160
         height: 30
@@ -3914,8 +3914,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 195.8522, y: 208.49661}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 12.763573, y: 12.251518}
+    canvasZoom: 1.0300002
   - id: 9
     fields:
     - title: Title
@@ -4099,7 +4099,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 298.6448
-        y: 72.44231
+        y: 73.708115
         width: 160
         height: 30
     - id: 2
@@ -4438,7 +4438,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 480
-        y: 320
+        y: 321.2658
         width: 160
         height: 30
     - id: 7
@@ -4836,7 +4836,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
+        x: 388.7342
         y: 370
         width: 160
         height: 30
@@ -5066,7 +5066,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 'sequence;
+
+          Delay({{end}})'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5088,7 +5090,7 @@ MonoBehaviour:
       - originConversationID: 10
         originDialogueID: 1
         destinationConversationID: 10
-        destinationDialogueID: 6
+        destinationDialogueID: 7
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5098,8 +5100,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 70
+        x: 31.970871
+        y: 70.97087
         width: 160
         height: 30
     - id: 2
@@ -5133,7 +5135,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 'sequence;
+
+          Delay({{end}})'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5155,73 +5159,6 @@ MonoBehaviour:
       - originConversationID: 10
         originDialogueID: 2
         destinationConversationID: 10
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 236
-        y: 66
-        width: 160
-        height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: the correct name
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10
-        originDialogueID: 3
-        destinationConversationID: 10
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
@@ -5232,8 +5169,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 236
-        y: 116
+        x: 234.05826
+        y: 63.08737
         width: 160
         height: 30
     - id: 4
@@ -5267,7 +5204,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5299,8 +5236,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 236
-        y: 166
+        x: 234.05823
+        y: 165.02913
         width: 160
         height: 30
     - id: 5
@@ -5336,7 +5273,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5375,74 +5312,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 315
-        y: 224
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: Misnamed
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 10
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10
-        originDialogueID: 6
-        destinationConversationID: 10
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 31
-        y: 120
+        y: 220.11652
         width: 160
         height: 30
     - id: 7
@@ -5476,7 +5346,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5508,8 +5378,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 170
+        x: 37.796112
+        y: 137.96115
         width: 160
         height: 30
     - id: 8
@@ -5543,7 +5413,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5561,13 +5431,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 10
-        originDialogueID: 8
-        destinationConversationID: 10
-        destinationDialogueID: 0
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -5575,8 +5439,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 220
+        x: 37.893204
+        y: 183.10678
         width: 160
         height: 30
     - id: 9
@@ -5709,7 +5573,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 95
+        x: 95.97089
         y: 291
         width: 160
         height: 30
@@ -5746,7 +5610,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5779,7 +5643,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 338
-        y: 342
+        y: 340.7805
         width: 160
         height: 30
     - id: 12
@@ -5815,7 +5679,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5847,8 +5711,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 338
-        y: 392
+        x: 339.2195
+        y: 389.56097
         width: 160
         height: 30
     - id: 13
@@ -5882,7 +5746,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5909,7 +5773,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 338
-        y: 442
+        y: 440.78046
         width: 160
         height: 30
     - id: 14
@@ -5944,7 +5808,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -5976,7 +5840,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 95
+        x: 99.85437
         y: 341
         width: 160
         height: 30
@@ -6014,7 +5878,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6046,8 +5910,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 95
-        y: 391
+        x: 95.46796
+        y: 388.0874
         width: 160
         height: 30
     - id: 16
@@ -6083,7 +5947,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6115,8 +5979,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 95
-        y: 441
+        x: 96.2195
+        y: 437.83875
         width: 160
         height: 30
     - id: 17
@@ -6152,7 +6016,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6190,8 +6054,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 96.21951
-        y: 491
+        x: 97.25044
+        y: 488.9381
         width: 160
         height: 30
     - id: 18
@@ -6360,7 +6224,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6392,8 +6256,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 265.83972
-        y: 639.10126
+        x: 263.4007
+        y: 640.32074
         width: 160
         height: 30
     - id: 21
@@ -6427,7 +6291,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6460,7 +6324,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 265.83972
-        y: 689.10126
+        y: 687.8817
         width: 160
         height: 30
     - id: 22
@@ -6494,7 +6358,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6527,7 +6391,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 267.26828
-        y: 740.52985
+        y: 738.0908
         width: 160
         height: 30
     - id: 23
@@ -6561,7 +6425,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6587,7 +6451,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 265.83972
+        x: 267.05923
         y: 789.10126
         width: 160
         height: 30
@@ -6624,7 +6488,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6692,7 +6556,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: Delay({{end}})
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -6718,13 +6582,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 72.1689
-        y: 668.8481
+        x: 68.51036
+        y: 667.6286
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 105.73464, y: 284.49762}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 91.3243, y: 360.5148}
+    canvasZoom: 1.3899996
   syncInfo:
     syncActors: 0
     syncItems: 0
