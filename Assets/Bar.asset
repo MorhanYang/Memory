@@ -2838,7 +2838,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetActive(scanPanel,false);
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2846,7 +2846,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: bf36d702-676b-4783-b723-dc95d3237006
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 8
@@ -2906,7 +2906,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetActive(scanPanel,false);
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2950,8 +2950,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 108.8217
-        y: 164.42905
+        x: 119.7592
+        y: 162.86655
         width: 160
         height: 30
     - id: 4
@@ -3224,8 +3224,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30.687813
-        y: 270.22336
+        x: 35.375298
+        y: 265.53586
         width: 160
         height: 30
     - id: 8
@@ -4334,8 +4334,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 73.84839, y: 0}
-    canvasZoom: 0.49000075
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000064
   - id: 9
     fields:
     - title: Title
