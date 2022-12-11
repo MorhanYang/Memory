@@ -2897,7 +2897,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: LyingChance
-        value: 0
+        value: 20
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
@@ -2910,11 +2910,29 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood swing vocabulary: Agent who comes
+          first every time
+
+
+          First to come every time.
+
+          According
+          to statistics, this individual has been to The Bar 42 times; among them,
+          the number of times you meet Agent Brand to greet you when you enter is
+          29.
+
+
+          Agent: The most important agent of the mastermind to manage
+          human society. Most of them are the elite of human society in life, so
+          they know very well the operation mechanism of human society. The mastermind
+          will upload their consciousness to the mechanical body after their death,
+          and make them to manage the human race.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: 3090a5bb-8a70-4654-8c0f-4387c5468a99
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 8
@@ -4335,7 +4353,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.64000064
+    canvasZoom: 0.7600005
   - id: 9
     fields:
     - title: Title
@@ -8308,8 +8326,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 219.70871
-        y: 160.29126
+        x: 213.45871
+        y: 170.11269
         width: 160
         height: 30
     - id: 5
@@ -8484,7 +8502,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood Swing Vocabulary: Delivery of
+          supplies
+
+
+          Delivery of supplies: Agent Brand is responsible for
+          transporting and distributing supplies to the lower levels of humanity.
+          The supplies include medicine, food, fossil energy, and water.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -8513,7 +8539,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 210
-        y: 317.76678
+        y: 316.87393
         width: 160
         height: 30
     - id: 9
@@ -8756,7 +8782,19 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood swing vocabulary: AI guard
+
+
+          AI
+          Guard F110: AI combat robot developed 100 years ago. Its main duty is to
+          remove unfriendly human individuals. Main weapon is only a 2watt laser
+          gun module. The Mastermind recently denied an Agent''s request to upgrade
+          the guard on the grounds that the current robot was sufficient for any
+          human threat.
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -8826,7 +8864,19 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood swing vocabulary: AI guard
+
+
+          AI
+          Guard F110: AI combat robot developed 100 years ago. Its main duty is to
+          remove unfriendly human individuals. Main weapon is only a 2watt laser
+          gun module. The Mastermind recently denied an Agent''s request to upgrade
+          the guard on the grounds that the current robot was sufficient for any
+          human threat.
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -11109,8 +11159,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 581.42566}
-    canvasZoom: 0.5200006
+    canvasScrollPosition: {x: 49.619923, y: 251.70331}
+    canvasZoom: 0.9100002
   - id: 13
     fields:
     - title: Title
