@@ -6,7 +6,7 @@ public class showSlow : MonoBehaviour
 {
     // Start is called before the first frame update
     private float co;
-    public float changingSpeed=0.01f;
+    public float changingSpeed=0.005f;
     private float timer;
     void Start()
     {
