@@ -626,21 +626,23 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 100
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
             m_BoolArgument: 0
           m_CallState: 2
   - guid: 3090a5bb-8a70-4654-8c0f-4387c5468a99
@@ -656,15 +658,9 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 'Test subject: Brand Mood swing vocabulary: Agent who
-              comes first every time  First to come every time. According to statistics,
-              this individual has been to The Bar 42 times; among them, the number
-              of times you meet Agent Brand to greet you when you enter is 29.  Agent:
-              The most important agent of the mastermind to manage human society.
-              Most of them are the elite of human society in life, so they know very
-              well the operation mechanism of human society. The mastermind will
-              upload their consciousness to the mechanical body after their death,
-              and make them to manage the human race.'
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 505900768}
@@ -674,7 +670,805 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 20
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: e080bf24-6be8-4aad-80b6-9c0a01bc30a8
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Keywords: Lucy/Agent0628-Lucy  Lucy: Lucy is an Agent
+              who does not participate in ground transactions, and is very resistant
+              to the human world. Therefore, calling her by her name directly without
+              adding Agent and serial number would make her feel very offensive.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 85
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 05ae386d-9ab8-4bbd-83ff-4238ae220a05
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: eee0cf4d-d82c-4bf8-99c7-463f80cad8cd
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 7714c156-5f9b-4a15-b4c7-c45f080b074c
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 290e3fa3-4957-4530-a38c-70a000be27dd
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: f5b6a72c-4bd7-4896-a1d9-6ecd7d3afb0c
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 0c9c5ff0-ab5e-4e90-aec9-b9b2e18f5c8e
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 4e018701-86a8-4bf0-bddc-c9d4654ba44c
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: d71616e0-9501-4380-af92-ac97ffc6b7a7
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: a49fccce-793d-4af2-83a5-6157da07ae6d
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 61e4fdfb-f757-49f1-838c-7fd6b794fcc8
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: deed0b7d-515b-4c42-9e74-9c5b431f4b63
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 2d59466a-ca7f-4018-9b08-f3c3fb10f7cc
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Access is denied. Reason for rejection: Captain0013-Cooper
+              has higher authority than you. You do not have permission to retrieve
+              Captain level Ai.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: a9e56bcb-1149-4936-a4b0-96d5b9c593ac
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 12e040fb-9149-476a-8063-153bc2169030
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 19b20398-ea97-4622-9893-28fd034a5c60
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Keyword: Position  Positions: There are also positions
+              in the Agent world. The position of the regional manager is "Captain",
+              who directly manages "Trading Agent" and "Administrative Agent". In
+              addition, there are "Assistant Agents" who are responsible for "growing
+              human bio-cells" and "managing inventory".'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 75
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 99005e54-dad5-4077-bd8a-f5398b7e3849
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: d5384707-c342-4d39-97d3-1b9c9bb83120
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 8f503f95-e7c7-421e-aafe-6064526b03b0
+    onExecute:
+      m_PersistentCalls:
+        m_Calls: []
+  - guid: 367b6c18-44b4-46df-b3b1-22c762c2f72e
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: f711e094-e84f-4675-b716-dca648082379
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 094eb4c5-0b79-4755-8e19-6acba08eb846
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: bc2cb274-de7f-4002-a04f-15ed84540f02
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 74f3ff25-ebc7-4c96-b693-075c562e746d
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: c982ebea-51f5-4cfb-8de9-3ae84ab906bc
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Keywords: Medicine Medicine: important materials needed
+              by human beings. In the black market established by human beings, such
+              materials can be sold at very high prices.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 75
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 72557ad3-2032-43b1-b116-2524ae3c04a9
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Keywords: black market Black market: a market where
+              human society trades resources privately and traffics people, also
+              known as the "dark net".'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 75
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: f433c536-d48a-4df2-b9cf-556e843e2ed5
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Nothing special
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 34075da6-fdff-4899-a334-cdbfbcfa0a4e
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 62053191}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+          m_MethodName: set_text
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 'Keywords: Bio-cell Bio-cell: an important energy source
+              that drives the mastermind world. Agent distributes supplies to human
+              society on behalf of Mastermind World. In return, humans need to provide
+              human bodies as nutrients to feed bio-batteries.'
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 505900768}
+          m_TargetAssemblyTypeName: ChangScanColor, Assembly-CSharp
+          m_MethodName: ChangeLyingTo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 50
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -2627,7 +3421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9716981, g: 0.9578735, b: 0.43543077, a: 1}
+  m_Color: {r: 0, g: 0.49803922, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3281,7 +4075,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671012863}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3294,7 +4088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -434, y: 209}
+  m_AnchoredPosition: {x: -433.99988, y: 209.00005}
   m_SizeDelta: {x: 1024, y: 512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &671012865
@@ -10143,7 +10937,7 @@ MonoBehaviour:
   firstSelected: {fileID: 0}
   focusCheckFrequency: 0.2
   refreshSelectablesFrequency: 0
-  selectPreviousOnDisable: 0
+  selectPreviousOnDisable: 1
   showAnimationTrigger: Show
   hideAnimationTrigger: Hide
   startState: 0

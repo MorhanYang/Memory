@@ -363,7 +363,7 @@ MonoBehaviour:
   - id: 11
     fields:
     - title: Name
-      value: Bar-FrankTalked
+      value: Bar-FrankCanTalk
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -2394,8 +2394,8 @@ MonoBehaviour:
       type: 5
       typeString: CustomFieldType_Actor
     overrideSettings:
-      useOverrides: 1
-      overrideSubtitleSettings: 1
+      useOverrides: 0
+      overrideSubtitleSettings: 0
       showNPCSubtitlesDuringLine: 1
       showNPCSubtitlesWithResponses: 0
       showPCSubtitlesDuringLine: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay({{end}})
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2555,8 +2555,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75.97089
-        y: 79.084076
+        x: 74.23433
+        y: 69.88521
         width: 160
         height: 30
     - id: 2
@@ -2592,7 +2592,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Delay({{end}})
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2623,8 +2623,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 17.326977, y: 9.412839}
-    canvasZoom: 1.06
+    canvasScrollPosition: {x: 22.432348, y: 22.811249}
+    canvasZoom: 1.1199999
   - id: 8
     fields:
     - title: Title
@@ -2708,7 +2708,7 @@ MonoBehaviour:
       - title: ScanText
         value: scan
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
         value: 
         type: 0
@@ -2718,19 +2718,13 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 8
         originDialogueID: 0
         destinationConversationID: 8
         destinationDialogueID: 1
-        isConnector: 0
-        priority: 2
-      - originConversationID: 8
-        originDialogueID: 0
-        destinationConversationID: 8
-        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2740,8 +2734,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 20
+        x: 31.5625
+        y: 12.1875
         width: 160
         height: 30
     - id: 1
@@ -2776,7 +2770,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -2808,8 +2802,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 69.02913
+        x: 32.88964
+        y: 63.581543
         width: 160
         height: 30
     - id: 2
@@ -2844,15 +2838,19 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: SetActive(scanPanel,false);
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: bf36d702-676b-4783-b723-dc95d3237006
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 8
@@ -2876,8 +2874,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 33.954987
-        y: 116.34146
+        x: 27.525955
+        y: 118.99518
         width: 160
         height: 30
     - id: 3
@@ -2903,7 +2901,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: LyingChance
-        value: 0
+        value: 20
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
@@ -2912,15 +2910,19 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: SetActive(scanPanel,false);
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: 3090a5bb-8a70-4654-8c0f-4387c5468a99
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 8
@@ -2956,8 +2958,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28
-        y: 171.0989
+        x: 119.7592
+        y: 162.86655
         width: 160
         height: 30
     - id: 4
@@ -2991,7 +2993,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3023,8 +3025,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28
-        y: 220
+        x: 36.60293
+        y: 215.3125
         width: 160
         height: 30
     - id: 5
@@ -3058,7 +3060,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3069,6 +3071,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 8
       isRoot: 0
       isGroup: 0
@@ -3090,8 +3096,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 267.301
-        y: 235.82526
+        x: 263.5929
+        y: 240.9385
         width: 160
         height: 30
     - id: 6
@@ -3125,7 +3131,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3157,8 +3163,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 445.82355
-        y: 196.47061
+        x: 451.8993
+        y: 190.58829
         width: 160
         height: 30
     - id: 7
@@ -3176,7 +3182,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 4
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -3194,7 +3200,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}}'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3226,8 +3232,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 269
+        x: 35.375298
+        y: 265.53586
         width: 160
         height: 30
     - id: 8
@@ -3257,19 +3263,20 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: Agent0115-Coleman, you are talking about the minimum standard! 150
-          per quarter is the minimum standard! Thirteen Area Agent to promote the
-          overall level, this rest area to upgrade, and this "nutrient solution"
-          to be replaced with a better effect, we must reach the good level of 160
-          blocks this quarter!
+        value: 'Agent0115-Coleman, you are talking about the minimum standard! 150
+          per quarter is the minimum standard! '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}}'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3287,7 +3294,7 @@ MonoBehaviour:
       - originConversationID: 8
         originDialogueID: 8
         destinationConversationID: 8
-        destinationDialogueID: 6
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3297,8 +3304,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 28
-        y: 320
+        x: 29.315796
+        y: 317.36844
         width: 160
         height: 30
     - id: 9
@@ -3365,8 +3372,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 337.4369
-        y: 318.48544
+        x: 308.66113
+        y: 286.40945
         width: 160
         height: 30
     - id: 10
@@ -3398,16 +3405,19 @@ MonoBehaviour:
       - title: Dialogue Text
         value: ' Agent0115-Coleman, remember, five pieces! Thirteen District Agent
           to promote the overall level, this rest area to upgrade, and this "nutrient
-          solution" to be replaced with a better effect, we must reach 160 pieces
-          of good grade this quarter!'
+          solution" to be replaced with a better effect, '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: '{{default}}'
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3425,7 +3435,7 @@ MonoBehaviour:
       - originConversationID: 8
         originDialogueID: 10
         destinationConversationID: 8
-        destinationDialogueID: 14
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3435,8 +3445,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 335.16418
-        y: 368.48544
+        x: 335.2682
+        y: 362.46402
         width: 160
         height: 30
     - id: 11
@@ -3472,7 +3482,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: '{{default}}'
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3494,7 +3504,7 @@ MonoBehaviour:
       - originConversationID: 8
         originDialogueID: 11
         destinationConversationID: 8
-        destinationDialogueID: 12
+        destinationDialogueID: 28
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3504,8 +3514,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 514.5499
-        y: 252.9126
+        x: 511.3203
+        y: 256.47684
         width: 160
         height: 30
     - id: 12
@@ -3535,10 +3545,8 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ' Agent0115-Coleman, don''t ask what you shouldn''t ask, just remember,
-          in order to promote the overall level of the Agent in the thirteenth district,
-          this rest area to upgrade, and this "nutrient solution" to be replaced
-          with a better effect, we must reach a good level of 160 pieces this quarter!'
+        value: ' and this "nutrient solution" to be replaced with a better effect,
+          we must reach a good level of 160 pieces this quarter!'
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -3546,7 +3554,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3574,69 +3586,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 556.70874
-        y: 298.69818
-        width: 160
-        height: 30
-    - id: 13
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 4
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: dialogue
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 8
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 26.703293
-        y: 70
+        x: 536.05756
+        y: 351.0409
         width: 160
         height: 30
     - id: 14
@@ -3671,11 +3622,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: '{{default}}'
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3715,7 +3670,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 485.00964
+        x: 482.62476
         y: 460.23306
         width: 160
         height: 30
@@ -3849,8 +3804,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 612.00964
-        y: 512.23303
+        x: 610.44714
+        y: 513.40955
         width: 160
         height: 30
     - id: 17
@@ -3880,14 +3835,13 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: I have strictly calculated the supplies available for interaction
+        value: 'I have strictly calculated the supplies available for interaction
           that the Mastermind world has delegated to the Agent. According to the
-          trading mechanism it should have been handed over all 18 pieces. I think
-          it must be because of some technical glitch.
+          trading mechanism it should have been handed over all 18 pieces. '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}}'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -3909,7 +3863,7 @@ MonoBehaviour:
       - originConversationID: 8
         originDialogueID: 17
         destinationConversationID: 8
-        destinationDialogueID: 18
+        destinationDialogueID: 25
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3919,7 +3873,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 408.00964
+        x: 404.88464
         y: 561.23303
         width: 160
         height: 30
@@ -3950,19 +3904,19 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: Agent0115-Coleman, you have to remember that the Mastermind world
-          upgraded our bodies into immortal Cyber bodies, but let us keep our human
-          brains, because, as the middleman connecting the "Mastermind AI World"
-          and the "Terrestrial Human World "We need to trade resources-bio-batteries
-          according to the human mind!
+        value: We need to trade resources-bio-batteries according to the human mind!
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}}'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -3990,8 +3944,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 408.00964
-        y: 611.23303
+        x: 412.88763
+        y: 700.3004
         width: 160
         height: 30
     - id: 19
@@ -4030,7 +3984,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -4058,8 +4016,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 611.8302
-        y: 564.50574
+        x: 597.6854
+        y: 573.98804
         width: 160
         height: 30
     - id: 20
@@ -4096,11 +4054,15 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}}'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -4168,7 +4130,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -4196,8 +4162,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 612.9666
-        y: 662.23303
+        x: 615.5982
+        y: 658.2857
         width: 160
         height: 30
     - id: 22
@@ -4265,8 +4231,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 839.555
-        y: 489.7785
+        x: 840.73145
+        y: 491.341
         width: 160
         height: 30
     - id: 23
@@ -4326,13 +4292,359 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 838.4185
-        y: 531.824
+        x: 833.731
+        y: 533.3865
+        width: 160
+        height: 30
+    - id: 24
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Thirteen Area Agent to promote the overall level, this rest area to
+          upgrade, and this "nutrient solution" to be replaced with a better effect,
+          we must reach the good level of 160 blocks this quarter!
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: '{{default}}'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: 'Access is denied.
+
+          Reason for rejection: Captain0013-Cooper
+          has higher authority than you. You do not have permission to retrieve Captain
+          level Ai.'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 8
+        originDialogueID: 24
+        destinationConversationID: 8
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 28
+        y: 367.36844
+        width: 160
+        height: 30
+    - id: 25
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: I think it must be because of some technical glitch.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 8
+        originDialogueID: 25
+        destinationConversationID: 8
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      - originConversationID: 8
+        originDialogueID: 25
+        destinationConversationID: 8
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 406.10416
+        y: 616.2668
+        width: 160
+        height: 30
+    - id: 26
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: we must reach 160 pieces of good grade this quarter!
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 8
+        originDialogueID: 26
+        destinationConversationID: 8
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 336.11563
+        y: 409.9217
+        width: 160
+        height: 30
+    - id: 27
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Agent0115-Coleman, you have to remember that the Mastermind world
+          upgraded our bodies into immortal Cyber bodies, but let us keep our human
+          brains, because, as the middleman connecting the "Mastermind AI World"
+          and the "Terrestrial Human World "
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 411.2588
+        y: 659.0831
+        width: 160
+        height: 30
+    - id: 28
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: ' Agent0115-Coleman, don''t ask what you shouldn''t ask, just remember,
+          in order to promote the overall level of the Agent in the thirteenth district,
+          this rest area to upgrade,'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 8
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 8
+        originDialogueID: 28
+        destinationConversationID: 8
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 534.491
+        y: 305.2573
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 89.53198, y: 70.73658}
-    canvasZoom: 0.8500004
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.4600008
   - id: 9
     fields:
     - title: Title
@@ -4473,7 +4785,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ' HI Brad, you look like you''re enjoying yourself.
+        value: ' HI Frank, you look like you''re enjoying yourself.
 
 '
         type: 0
@@ -4515,7 +4827,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.6448
+        x: 295.1154
         y: 73.708115
         width: 160
         height: 30
@@ -5331,8 +5643,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 82.85953, y: 14.792671}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 47.60137, y: 50.25176}
+    canvasZoom: 0.6700003
   - id: 10
     fields:
     - title: Title
@@ -7995,7 +8307,7 @@ MonoBehaviour:
   - id: 12
     fields:
     - title: Title
-      value: BaBrand
+      value: Bar-Brand
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
@@ -8101,8 +8413,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 20
+        x: 2009.9924
+        y: 296.92188
         width: 160
         height: 30
     - id: 1
@@ -8116,11 +8428,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 6
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -8136,7 +8448,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8168,8 +8480,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 29
-        y: 69
+        x: 2015.4384
+        y: 344.00925
         width: 160
         height: 30
     - id: 2
@@ -8204,7 +8516,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8236,8 +8548,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 31
-        y: 119
+        x: 2011.9341
+        y: 401.21417
         width: 160
         height: 30
     - id: 4
@@ -8251,11 +8563,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 6
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -8273,7 +8585,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8305,8 +8617,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 44
-        y: 167
+        x: 2013.4512
+        y: 447.03455
         width: 160
         height: 30
     - id: 5
@@ -8372,8 +8684,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 52
-        y: 235
+        x: 2011.9341
+        y: 496.92188
         width: 160
         height: 30
     - id: 7
@@ -8409,7 +8721,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8441,8 +8753,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 52
-        y: 285
+        x: 2442.0896
+        y: 518.0757
         width: 160
         height: 30
     - id: 8
@@ -8472,16 +8784,24 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: :actually by you to see. No wonder we can become friends, because
-          you know me best. I've been overwhelmed by the delivery of supplies lately.
+        value: actually by you to see. No wonder we can become friends, because you
+          know me best. I've been overwhelmed by the delivery of supplies lately.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood Swing Vocabulary: Delivery of
+          supplies
+
+
+          Delivery of supplies: Agent Brand is responsible for
+          transporting and distributing supplies to the lower levels of humanity.
+          The supplies include medicine, food, fossil energy, and water.'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -8509,8 +8829,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 56
-        y: 332
+        x: 2442.0896
+        y: 564.9496
         width: 160
         height: 30
     - id: 9
@@ -8546,7 +8866,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8578,8 +8898,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 58
-        y: 380
+        x: 2444.2173
+        y: 615.948
         width: 160
         height: 30
     - id: 10
@@ -8645,8 +8965,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 58
-        y: 430
+        x: 2442.0896
+        y: 668.0757
         width: 160
         height: 30
     - id: 11
@@ -8676,12 +8996,12 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: dialogue
+        value: Did you encounter any problems during the transportation? Those humans
+          are not too friendly to you?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Did you encounter any problems during the transportation? Those humans
-          are not too friendly to you?
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -8713,8 +9033,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 58
-        y: 478.73413
+        x: 2440.7737
+        y: 718.0757
         width: 160
         height: 30
     - id: 12
@@ -8749,11 +9069,23 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood swing vocabulary: AI guard
+
+
+          AI
+          Guard F110: AI combat robot developed 100 years ago. Its main duty is to
+          remove unfriendly human individuals. Main weapon is only a 2watt laser
+          gun module. The Mastermind recently denied an Agent''s request to upgrade
+          the guard on the grounds that the current robot was sufficient for any
+          human threat.
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -8781,8 +9113,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 58
-        y: 530
+        x: 2440.7737
+        y: 766.75995
         width: 160
         height: 30
     - id: 13
@@ -8819,17 +9151,33 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
-        value: scan
+        value: 'Test subject: Brand
+
+          Mood swing vocabulary: AI guard
+
+
+          AI
+          Guard F110: AI combat robot developed 100 years ago. Its main duty is to
+          remove unfriendly human individuals. Main weapon is only a 2watt laser
+          gun module. The Mastermind recently denied an Agent''s request to upgrade
+          the guard on the grounds that the current robot was sufficient for any
+          human threat.
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 12
       isRoot: 0
       isGroup: 0
@@ -8857,8 +9205,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 18.824753
-        y: 567.62885
+        x: 2442.0896
+        y: 818.0757
         width: 160
         height: 30
     - id: 14
@@ -8918,8 +9266,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 4.391762
-        y: 645.46387
+        x: 2307.0896
+        y: 868.0757
         width: 160
         height: 30
     - id: 15
@@ -8985,8 +9333,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 252.84537
-        y: 636.1856
+        x: 2582.5837
+        y: 858.1856
         width: 160
         height: 30
     - id: 17
@@ -9022,7 +9370,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9054,8 +9402,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 310.01614
-        y: 709.897
+        x: 2439.458
+        y: 918.0757
         width: 160
         height: 30
     - id: 18
@@ -9092,7 +9440,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9124,8 +9472,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 310.5773
-        y: 759.897
+        x: 2440.7737
+        y: 968.07556
         width: 160
         height: 30
     - id: 19
@@ -9160,7 +9508,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9182,7 +9530,7 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 19
         destinationConversationID: 12
-        destinationDialogueID: 21
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9192,87 +9540,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 310.5773
-        y: 809.897
-        width: 160
-        height: 30
-    - id: 21
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 12
-        originDialogueID: 21
-        destinationConversationID: 12
-        destinationDialogueID: 23
-        isConnector: 0
-        priority: 2
-      - originConversationID: 12
-        originDialogueID: 21
-        destinationConversationID: 12
-        destinationDialogueID: 24
-        isConnector: 0
-        priority: 2
-      - originConversationID: 12
-        originDialogueID: 21
-        destinationConversationID: 12
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 320.70392
-        y: 853.5679
+        x: 2438.793
+        y: 1018.07556
         width: 160
         height: 30
     - id: 23
@@ -9338,130 +9607,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 128.29895
-        y: 921.28937
-        width: 160
-        height: 30
-    - id: 24
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: Of course, I have to increase the dose and see what happens.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 340.95706
-        y: 931.41595
-        width: 160
-        height: 30
-    - id: 25
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: I haven't decided yet.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 539.6912
-        y: 918.75775
+        x: 1829.9924
+        y: 1146.9219
         width: 160
         height: 30
     - id: 26
@@ -9495,7 +9642,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9527,8 +9674,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 128.29895
-        y: 971.28937
+        x: 2009.9924
+        y: 1196.9219
         width: 160
         height: 30
     - id: 27
@@ -9609,8 +9756,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 127.03313
-        y: 1023.821
+        x: 1874.9924
+        y: 1546.9219
         width: 160
         height: 30
     - id: 28
@@ -9676,8 +9823,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 127.03313
-        y: 1073.821
+        x: 1829.9924
+        y: 1296.9219
         width: 160
         height: 30
     - id: 29
@@ -9743,8 +9890,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 305.51407
-        y: 1073.821
+        x: 2009.9924
+        y: 1296.9219
         width: 160
         height: 30
     - id: 30
@@ -9796,7 +9943,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 30
+        destinationConversationID: 12
+        destinationDialogueID: 38
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -9804,8 +9957,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 543.48865
-        y: 1056.0996
+        x: 2189.992
+        y: 1296.9219
         width: 160
         height: 30
     - id: 31
@@ -9841,7 +9994,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9873,8 +10026,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 127.03313
-        y: 1123.821
+        x: 1829.9924
+        y: 1346.9219
         width: 160
         height: 30
     - id: 32
@@ -9904,11 +10057,13 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: dialogue
+        value: Agent Lucy just finished counting the quarterly distribution of supplies
+          - it's exhausting for her. You know, all the information must be aggregated
+          to her before it can be reported to the mastermind
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9926,7 +10081,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 32
+        destinationConversationID: 12
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -9934,8 +10095,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 305.51407
-        y: 1123.821
+        x: 2009.9924
+        y: 1346.9219
         width: 160
         height: 30
     - id: 33
@@ -9970,7 +10131,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: sequence
+        value: '{{default}};'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -9992,7 +10153,13 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 33
         destinationConversationID: 12
-        destinationDialogueID: 34
+        destinationDialogueID: 35
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 33
+        destinationConversationID: 12
+        destinationDialogueID: 36
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10002,11 +10169,11 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 127.03313
-        y: 1173.821
+        x: 1874.9924
+        y: 1396.9219
         width: 160
         height: 30
-    - id: 34
+    - id: 35
       fields:
       - title: Title
         value: 
@@ -10033,7 +10200,1088 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
+        value: What about other agents?
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 35
+        destinationConversationID: 12
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1874.9924
+        y: 1496.9219
+        width: 160
+        height: 30
+    - id: 36
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: About the dose
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 36
+        destinationConversationID: 12
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2144.9924
+        y: 1496.9219
+        width: 160
+        height: 30
+    - id: 37
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: ' I wish she could be a little more natural, after all, life is not
+          just work, and we don''t have a full Ai form.'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: '{{default}};'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2142.9514
+        y: 1396.9219
+        width: 160
+        height: 30
+    - id: 38
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: The most interesting thing is that a strange guy came in today. He
+          seems to be an Agent from another precinct. you can talk to him if you
+          like - he seems pretty mean.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: '{{default}};'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2189.992
+        y: 1346.9219
+        width: 160
+        height: 30
+    - id: 39
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: So are you going to increase the dose today?
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 39
+        destinationConversationID: 12
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 39
+        destinationConversationID: 12
+        destinationDialogueID: 41
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2144.9924
+        y: 1546.9219
+        width: 160
+        height: 30
+    - id: 40
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Of course, I have to increase the dose and see what happens.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 40
+        destinationConversationID: 12
+        destinationDialogueID: 42
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1874.9924
+        y: 1596.9219
+        width: 160
+        height: 30
+    - id: 41
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: I haven't decided yet.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 41
+        destinationConversationID: 12
+        destinationDialogueID: 44
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2144.9924
+        y: 1596.9219
+        width: 160
+        height: 30
+    - id: 42
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
         value: dialogue
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: ' I actually haven''t decided yet.
+
+'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 42
+        destinationConversationID: 12
+        destinationDialogueID: 43
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1874.9924
+        y: 1646.9219
+        width: 160
+        height: 30
+    - id: 43
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: ' Don''t you want to know more about that octavo thing - the thing
+          that you often refer to as appearing in your sleep. I have a feeling that
+          if you up the dosage a bit, maybe your visions could be clearer!'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 43
+        destinationConversationID: 12
+        destinationDialogueID: 46
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1874.9924
+        y: 1696.9219
+        width: 160
+        height: 30
+    - id: 44
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Why not? I'd also like to up the dosage of L'Oreal to see what happens.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 44
+        destinationConversationID: 12
+        destinationDialogueID: 45
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2144.9924
+        y: 1646.9219
+        width: 160
+        height: 30
+    - id: 45
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Haha, I knew it. You'll find the final answer even after the dose
+          is increased. You said before that the "L'Oreal" always reminds you of
+          a wooden octave box. Maybe this time you will be able to see more clearly.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 45
+        destinationConversationID: 12
+        destinationDialogueID: 46
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2144.9924
+        y: 1696.9219
+        width: 160
+        height: 30
+    - id: 46
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Octavo...
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 46
+        destinationConversationID: 12
+        destinationDialogueID: 47
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2009.9924
+        y: 1746.9219
+        width: 160
+        height: 30
+    - id: 47
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Yes, you've mentioned it to me more than once. You said that it often
+          appears in your visions, and that there is a particularly familiar feeling.
+          Didn't you specifically ask an information peddler down there to help you
+          investigate this thing some time ago?
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 47
+        destinationConversationID: 12
+        destinationDialogueID: 48
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2009.9924
+        y: 1796.9219
+        width: 160
+        height: 30
+    - id: 48
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Okay, I'll think about it.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 48
+        destinationConversationID: 12
+        destinationDialogueID: 49
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2009.9924
+        y: 1846.9219
+        width: 160
+        height: 30
+    - id: 49
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Indeed, I'll think about it.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 49
+        destinationConversationID: 12
+        destinationDialogueID: 50
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2009.9924
+        y: 1896.9219
+        width: 160
+        height: 30
+    - id: 50
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: :Hey, life is always full of mysteries. I almost forgot, Agent Lucy
+          seems to have been looking for you before you arrived, saying that there
+          are some important things to ask you. I suggest you look for her before
+          you use "L'Oreal".
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 50
+        destinationConversationID: 12
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2009.9924
+        y: 1946.9219
+        width: 160
+        height: 30
+    - id: 51
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Goodbye
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -10063,13 +11311,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 348.39233
-        y: 1283.0443
+        x: 2009.9924
+        y: 1996.9221
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 73.20353, y: 916.62744}
-    canvasZoom: 1.0300001
+    canvasScrollPosition: {x: 1759.1166, y: 1237.7695}
+    canvasZoom: 0.7300004
   - id: 13
     fields:
     - title: Title
