@@ -4494,7 +4494,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ' HI Frank, you look like you''re enjoying yourself.
+        value: ' HI Brad, you look like you''re enjoying yourself.
 
 '
         type: 0
@@ -4536,7 +4536,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 295.1154
+        x: 298.6448
         y: 73.708115
         width: 160
         height: 30
@@ -5317,7 +5317,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: 53e73e18-fdf9-4c44-a629-dbf893ee42e4
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 9
@@ -5347,13 +5347,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 296.3358
-        y: 112.40506
+        x: 294.7733
+        y: 109.28006
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 82.85953, y: 14.792671}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.64000034
   - id: 10
     fields:
     - title: Title
@@ -8189,7 +8189,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 215.44598
+        x: 213.88351
         y: 67.08737
         width: 160
         height: 30
@@ -11159,8 +11159,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 73.43744, y: 0}
-    canvasZoom: 0.64000046
+    canvasScrollPosition: {x: 49.619923, y: 251.70331}
+    canvasZoom: 0.9100002
   - id: 13
     fields:
     - title: Title
