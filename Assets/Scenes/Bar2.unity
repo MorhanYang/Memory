@@ -10143,7 +10143,7 @@ MonoBehaviour:
   firstSelected: {fileID: 0}
   focusCheckFrequency: 0.2
   refreshSelectablesFrequency: 0
-  selectPreviousOnDisable: 1
+  selectPreviousOnDisable: 0
   showAnimationTrigger: Show
   hideAnimationTrigger: Hide
   startState: 0
