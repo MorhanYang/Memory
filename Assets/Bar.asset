@@ -4494,7 +4494,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ' HI Brad, you look like you''re enjoying yourself.
+        value: ' HI Frank, you look like you''re enjoying yourself.
 
 '
         type: 0
@@ -4536,7 +4536,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.6448
+        x: 295.1154
         y: 73.708115
         width: 160
         height: 30
@@ -8189,7 +8189,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 213.88351
+        x: 215.44598
         y: 67.08737
         width: 160
         height: 30
@@ -11159,8 +11159,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 49.619923, y: 251.70331}
-    canvasZoom: 0.9100002
+    canvasScrollPosition: {x: 73.43744, y: 0}
+    canvasZoom: 0.64000046
   - id: 13
     fields:
     - title: Title
