@@ -9,6 +9,6 @@ public class sceneManager : MonoBehaviour,IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("clicked!");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 }

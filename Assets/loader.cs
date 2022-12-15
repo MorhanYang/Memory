@@ -17,7 +17,7 @@ public class loader : MonoBehaviour
         
     }
 
-    void nextLevel()
+    public void nextLevel()
     {
         SceneManager.LoadScene(2);
     }

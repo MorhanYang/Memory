@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mainMenu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SinSinCity.unity
+    guid: b1b1b8632943d2e419868055fe4cd172
   m_configObjects: {}
