@@ -5443,8 +5443,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 33.52942
-        y: 372.35294
+        x: 11.115639
+        y: 405.11154
         width: 160
         height: 30
     - id: 11
@@ -5496,7 +5496,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 11
+        destinationConversationID: 9
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: Variable["Bar_BrandTalked"] = true
       onExecute:
@@ -5565,8 +5571,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 393.4401
-        y: 355.88235
+        x: 403.7849
+        y: 395.53748
         width: 160
         height: 30
     - id: 13
@@ -5642,9 +5648,70 @@ MonoBehaviour:
         y: 112.40506
         width: 160
         height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: dialogue
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 378.96545
+        y: 541.7648
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 47.60137, y: 50.25176}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 0, y: 34.482727}
+    canvasZoom: 0.5800004
   - id: 10
     fields:
     - title: Title
@@ -8610,6 +8677,18 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
+      - originConversationID: 12
+        originDialogueID: 4
+        destinationConversationID: 12
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 4
+        destinationConversationID: 12
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -8617,8 +8696,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2013.4512
-        y: 447.03455
+        x: 2012.0227
+        y: 444.17737
         width: 160
         height: 30
     - id: 5
@@ -8715,7 +8794,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: :You guy, every time I come here you're waiting for me at the door,
+        value: You guy, every time I come here you're waiting for me at the door,
           yet you actually say I'm the first one to come. The one who wants to increase
           the dose is also yourself, right? Haha
         type: 0
@@ -8860,9 +8939,9 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ' I just delivered the last batch of supplies to the lower human world
-          today. I''ve been looking forward to getting here and relaxing for a long
-          time.'
+        value: I just delivered the last batch of supplies to the lower human world
+          today. I've been looking forward to getting here and relaxing for a long
+          time.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -9103,7 +9182,7 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 12
         destinationConversationID: 12
-        destinationDialogueID: 13
+        destinationDialogueID: 53
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9144,10 +9223,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: If they dare to look for trouble, the AI guards by my side are not
-          a meal. As you know, I instantly just stay down there for even a second
-          would make me feel bored, let alone having to send supplies to their community
-          there. And that road isn't even for Agents to walk.
+        value: And that road isn't even for Agents to walk.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -9205,8 +9281,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2442.0896
-        y: 818.0757
+        x: 2449.3623
+        y: 861.7121
         width: 160
         height: 30
     - id: 14
@@ -9258,7 +9334,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 14
+        destinationConversationID: 12
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -9266,8 +9348,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2307.0896
-        y: 868.0757
+        x: 2316.1804
+        y: 911.7121
         width: 160
         height: 30
     - id: 15
@@ -9333,8 +9415,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2582.5837
-        y: 858.1856
+        x: 2591.6746
+        y: 901.822
         width: 160
         height: 30
     - id: 17
@@ -9402,8 +9484,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2439.458
-        y: 918.0757
+        x: 2448.5488
+        y: 961.7121
         width: 160
         height: 30
     - id: 18
@@ -9472,8 +9554,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2440.7737
-        y: 968.07556
+        x: 2449.8645
+        y: 1011.712
         width: 160
         height: 30
     - id: 19
@@ -9540,8 +9622,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2438.793
-        y: 1018.07556
+        x: 2447.8838
+        y: 1061.7119
         width: 160
         height: 30
     - id: 23
@@ -9571,7 +9653,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: What are the other Agents doing?
+        value: I haven't decided yet. What are the other Agents doing?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -9607,8 +9689,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1829.9924
-        y: 1146.9219
+        x: 1787.8257
+        y: 498.2663
         width: 160
         height: 30
     - id: 26
@@ -9674,8 +9756,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1196.9219
+        x: 1785.656
+        y: 575.89777
         width: 160
         height: 30
     - id: 27
@@ -9756,8 +9838,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1874.9924
-        y: 1546.9219
+        x: 1783.4429
+        y: 642.29156
         width: 160
         height: 30
     - id: 28
@@ -9823,8 +9905,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1829.9924
-        y: 1296.9219
+        x: 1616.1996
+        y: 817.61206
         width: 160
         height: 30
     - id: 29
@@ -9890,8 +9972,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1296.9219
+        x: 1796.1996
+        y: 817.61206
         width: 160
         height: 30
     - id: 30
@@ -9957,8 +10039,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2189.992
-        y: 1296.9219
+        x: 1976.2001
+        y: 817.61206
         width: 160
         height: 30
     - id: 31
@@ -9988,7 +10070,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: ':Look at Agent Frank! He''s just finished dealing with the food supply
+        value: 'Look at Agent Frank! He''s just finished dealing with the food supply
           protocol - no Agent knows what humans need to eat better than he does!
           I heard he was a medical doctor before he was converted into an Agent. '
         type: 0
@@ -10026,8 +10108,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1829.9924
-        y: 1346.9219
+        x: 1616.1996
+        y: 867.61206
         width: 160
         height: 30
     - id: 32
@@ -10095,8 +10177,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1346.9219
+        x: 1796.1996
+        y: 867.61206
         width: 160
         height: 30
     - id: 33
@@ -10159,7 +10241,7 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 33
         destinationConversationID: 12
-        destinationDialogueID: 36
+        destinationDialogueID: 52
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10169,8 +10251,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1874.9924
-        y: 1396.9219
+        x: 1616.7031
+        y: 915.17
         width: 160
         height: 30
     - id: 35
@@ -10236,75 +10318,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1874.9924
-        y: 1496.9219
-        width: 160
-        height: 30
-    - id: 36
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: About the dose
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 12
-        originDialogueID: 36
-        destinationConversationID: 12
-        destinationDialogueID: 39
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 2144.9924
-        y: 1496.9219
+        x: 1996.828
+        y: 1170.7454
         width: 160
         height: 30
     - id: 37
@@ -10357,7 +10372,19 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 37
+        destinationConversationID: 12
+        destinationDialogueID: 35
+        isConnector: 0
+        priority: 2
+      - originConversationID: 12
+        originDialogueID: 37
+        destinationConversationID: 12
+        destinationDialogueID: 52
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -10365,8 +10392,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2142.9514
-        y: 1396.9219
+        x: 1804.6694
+        y: 911.48975
         width: 160
         height: 30
     - id: 38
@@ -10420,78 +10447,17 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 2189.992
-        y: 1346.9219
-        width: 160
-        height: 30
-    - id: 39
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: So are you going to increase the dose today?
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
       outgoingLinks:
       - originConversationID: 12
-        originDialogueID: 39
+        originDialogueID: 38
         destinationConversationID: 12
-        destinationDialogueID: 40
+        destinationDialogueID: 35
         isConnector: 0
         priority: 2
       - originConversationID: 12
-        originDialogueID: 39
+        originDialogueID: 38
         destinationConversationID: 12
-        destinationDialogueID: 41
+        destinationDialogueID: 52
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10501,8 +10467,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2144.9924
-        y: 1546.9219
+        x: 1976.2001
+        y: 867.61206
         width: 160
         height: 30
     - id: 40
@@ -10558,73 +10524,6 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 40
         destinationConversationID: 12
-        destinationDialogueID: 42
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1874.9924
-        y: 1596.9219
-        width: 160
-        height: 30
-    - id: 41
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: I haven't decided yet.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 12
-        originDialogueID: 41
-        destinationConversationID: 12
         destinationDialogueID: 44
         isConnector: 0
         priority: 2
@@ -10635,146 +10534,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2144.9924
-        y: 1596.9219
-        width: 160
-        height: 30
-    - id: 42
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: dialogue
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: ' I actually haven''t decided yet.
-
-'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 12
-        originDialogueID: 42
-        destinationConversationID: 12
-        destinationDialogueID: 43
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1874.9924
-        y: 1646.9219
-        width: 160
-        height: 30
-    - id: 43
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: ' Don''t you want to know more about that octavo thing - the thing
-          that you often refer to as appearing in your sleep. I have a feeling that
-          if you up the dosage a bit, maybe your visions could be clearer!'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 12
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 12
-        originDialogueID: 43
-        destinationConversationID: 12
-        destinationDialogueID: 46
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1874.9924
-        y: 1696.9219
+        x: 948.5967
+        y: 575.7157
         width: 160
         height: 30
     - id: 44
@@ -10840,8 +10601,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2144.9924
-        y: 1646.9219
+        x: 949.9402
+        y: 629.948
         width: 160
         height: 30
     - id: 45
@@ -10909,8 +10670,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2144.9924
-        y: 1696.9219
+        x: 951.43286
+        y: 681.44073
         width: 160
         height: 30
     - id: 46
@@ -10966,7 +10727,7 @@ MonoBehaviour:
       - originConversationID: 12
         originDialogueID: 46
         destinationConversationID: 12
-        destinationDialogueID: 47
+        destinationDialogueID: 54
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10976,8 +10737,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1746.9219
+        x: 953.7461
+        y: 734.4256
         width: 160
         height: 30
     - id: 47
@@ -11007,10 +10768,8 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: Yes, you've mentioned it to me more than once. You said that it often
-          appears in your visions, and that there is a particularly familiar feeling.
-          Didn't you specifically ask an information peddler down there to help you
-          investigate this thing some time ago?
+        value: Didn't you specifically ask an information peddler down there to help
+          you investigate this thing some time ago?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -11046,8 +10805,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1796.9219
+        x: 954.9225
+        y: 835.01385
         width: 160
         height: 30
     - id: 48
@@ -11113,8 +10872,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1846.9219
+        x: 951.4734
+        y: 895.78925
         width: 160
         height: 30
     - id: 49
@@ -11180,8 +10939,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1896.9219
+        x: 951.4734
+        y: 945.78925
         width: 160
         height: 30
     - id: 50
@@ -11250,8 +11009,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1946.9219
+        x: 951.4734
+        y: 995.7893
         width: 160
         height: 30
     - id: 51
@@ -11311,13 +11070,219 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2009.9924
-        y: 1996.9221
+        x: 951.4734
+        y: 1045.7894
+        width: 160
+        height: 30
+    - id: 52
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: I have known everything
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 52
+        destinationConversationID: 12
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1720.4507
+        y: 1168.5574
+        width: 160
+        height: 30
+    - id: 53
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: 'If they dare to look for trouble, the AI guards by my side are not
+          a meal. As you know, I instantly just stay down there for even a second
+          would make me feel bored, let alone having to send supplies to their community
+          there. '
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 53
+        destinationConversationID: 12
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 2448.0464
+        y: 812.81104
+        width: 160
+        height: 30
+    - id: 54
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: 'Yes, you''ve mentioned it to me more than once. You said that it
+          often appears in your visions, and that there is a particularly familiar
+          feeling. '
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 12
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 12
+        originDialogueID: 54
+        destinationConversationID: 12
+        destinationDialogueID: 47
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 954.9226
+        y: 780.8962
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1759.1166, y: 1237.7695}
-    canvasZoom: 0.7300004
+    canvasScrollPosition: {x: 665.6952, y: 210.5376}
+    canvasZoom: 0.33999997
   - id: 13
     fields:
     - title: Title

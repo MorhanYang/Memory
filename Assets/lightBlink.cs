@@ -6,6 +6,7 @@ public class lightBlink : MonoBehaviour
 {
     // Start is called before the first frame update
     public int BlinkChanceInt;
+    public float blinkTIme;
     private bool flag;
 
     private int a;
@@ -31,8 +32,8 @@ public class lightBlink : MonoBehaviour
     {
         flag =false; 
          GetComponent<SpriteRenderer>().enabled= true;
-         yield return new WaitForSeconds(a/2.0f);
-         GetComponent<SpriteRenderer>().enabled= false; 
+         yield return new WaitForSeconds(blinkTIme);
+         GetComponent<SpriteRenderer>().enabled= false;
          flag =true;   
     }
 
