@@ -2432,7 +2432,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: -1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2555,8 +2555,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 74.23433
-        y: 69.88521
+        x: 71.88138
+        y: 85.17934
         width: 160
         height: 30
     - id: 2
@@ -2623,8 +2623,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 22.432348, y: 22.811249}
-    canvasZoom: 1.1199999
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.85000014
   - id: 8
     fields:
     - title: Title
