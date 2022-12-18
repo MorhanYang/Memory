@@ -324,6 +324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572671827}
   - component: {fileID: 572671826}
+  - component: {fileID: 572671828}
   m_Layer: 0
   m_Name: bg_wong store_light1
   m_TagString: Untagged
@@ -398,6 +399,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &572671828
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572671825}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 29bf03975340f4b42abec69fe0e86d98, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 29bf03975340f4b42abec69fe0e86d98, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1105986199
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,6 +774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1988411180}
   - component: {fileID: 1988411179}
+  - component: {fileID: 1988411181}
   m_Layer: 0
   m_Name: bg_wong store_light2
   m_TagString: Untagged
@@ -806,7 +824,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7fa2434f890f2894db30da1da2e4fb3e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.69803923}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -831,3 +849,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &1988411181
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988411178}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 72cbeab2a664db44b862a760b1c7e19c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 72cbeab2a664db44b862a760b1c7e19c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
