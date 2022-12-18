@@ -266,12 +266,6 @@ MonoBehaviour:
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      - originConversationID: 1
-        originDialogueID: 0
-        destinationConversationID: 1
-        destinationDialogueID: 58
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -3979,67 +3973,6 @@ MonoBehaviour:
         y: 1592.3777
         width: 160
         height: 30
-    - id: 58
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: dialogue
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 860
-        y: 454.78262
-        width: 160
-        height: 30
     - id: 59
       fields:
       - title: Title
@@ -4296,6 +4229,12 @@ MonoBehaviour:
         originDialogueID: 62
         destinationConversationID: 1
         destinationDialogueID: 67
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 62
+        destinationConversationID: 1
+        destinationDialogueID: 68
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4567,6 +4506,12 @@ MonoBehaviour:
         destinationDialogueID: 67
         isConnector: 0
         priority: 2
+      - originConversationID: 1
+        originDialogueID: 66
+        destinationConversationID: 1
+        destinationDialogueID: 68
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4605,7 +4550,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: 'I understand. I must find Nancy now. Thank you. '
+        value: '[End] I understand but I must go now.'
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4635,13 +4580,80 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1670.7268
-        y: 1915.6089
+        x: 1642.2952
+        y: 2134.0322
+        width: 160
+        height: 30
+    - id: 68
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: I have some other questions to ask.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 68
+        destinationConversationID: 1
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1785.4022
+        y: 1922.9663
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 1120.0707, y: 1368.7649}
-    canvasZoom: 0.7299997
+    canvasScrollPosition: {x: 0, y: 227.27734}
+    canvasZoom: 0.36999997
   - id: 2
     fields:
     - title: Title
