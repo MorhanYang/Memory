@@ -4189,10 +4189,30 @@ PrefabInstance:
       propertyPath: displaySettings.cameraSettings.sequencerCamera
       value: 
       objectReference: {fileID: 492373166}
+    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: displaySettings.subtitleSettings.showPCSubtitlesDuringLine
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 22325660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 492373166}
+    - target: {fileID: 1305264670, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: QTEIndicatorElements.QTEIndicators.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466316035, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: visibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029812819, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: visibility
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029812819, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: selectPreviousOnDisable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1 &1788998616
