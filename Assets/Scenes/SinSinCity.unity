@@ -661,10 +661,10 @@ MonoBehaviour:
     onExecute:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 492373170}
-          m_TargetAssemblyTypeName: loader1, Assembly-CSharp
-          m_MethodName: nextLevel
-          m_Mode: 3
+        - m_Target: {fileID: 1549892857}
+          m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+          m_MethodName: LoadNextLevel
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2960,7 +2960,7 @@ MonoBehaviour:
   maxConversationDistance: 5
   monitorConversationDistanceFrequency: 1
   showCursorDuringConversation: 0
-  pauseGameDuringConversation: 1
+  pauseGameDuringConversation: 0
   setActiveActions: []
   setEnabledActions: []
   setAnimatorStateActions: []
@@ -5549,6 +5549,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476821361}
   m_CullTransparentMesh: 0
+--- !u!114 &1549892857 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1797019224471458290, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+  m_PrefabInstance: {fileID: 1761959735}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab563f3530e5b5e4d94ad2675944cc62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1575427931
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,6 +6461,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+--- !u!1001 &1761959735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4847833655450630460, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847833655450630463, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3415563ecaa9cb489758f3bfffdb369, type: 3}
 --- !u!1 &1803045580
 GameObject:
   m_ObjectHideFlags: 0

@@ -210,6 +210,20 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 4
+    fields:
+    - title: Name
+      value: DiagoTakedOne
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   conversations:
   - id: 1
     fields:
@@ -3832,7 +3846,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["DiagoTakedOne"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3843,8 +3857,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.22000033
+    canvasScrollPosition: {x: 448.52872, y: 405.37692}
+    canvasZoom: 0.34000033
   - id: 3
     fields:
     - title: Title
@@ -7820,8 +7834,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 564.08026, y: 418.87677}
-    canvasZoom: 0.37000045
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.19000044
   - id: 5
     fields:
     - title: Title
