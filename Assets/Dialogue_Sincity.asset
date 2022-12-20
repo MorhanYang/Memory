@@ -4562,7 +4562,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 
+        value: 6729f8ce-0d8b-4bc0-ad93-6e90e905ec6b
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -4574,14 +4574,14 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("UNDEFINED", "unassigned")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1642.2952
-        y: 2134.0322
+        x: 1640.8666
+        y: 2135.461
         width: 160
         height: 30
     - id: 68
@@ -4652,8 +4652,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 631.9235, y: 283.8307}
-    canvasZoom: 0.5799999
+    canvasScrollPosition: {x: 0, y: 10}
+    canvasZoom: 0.1
   - id: 2
     fields:
     - title: Title
