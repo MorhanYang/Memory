@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class sceneManager : MonoBehaviour,IPointerClickHandler
 {
+    public int LoadTo;
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("clicked!");
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(LoadTo);
     }
 }
