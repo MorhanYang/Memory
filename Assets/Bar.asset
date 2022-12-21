@@ -6122,7 +6122,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bar_BrandTalked"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6133,8 +6133,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 839.02576, y: 1320.8923}
-    canvasZoom: 0.91000044
+    canvasScrollPosition: {x: 853.57324, y: 1500.1968}
+    canvasZoom: 0.6100007
   - id: 9
     fields:
     - title: Title
@@ -8345,8 +8345,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 970.05994
-        y: 966.8917
+        x: 940.33026
+        y: 980.4053
         width: 160
         height: 30
     - id: 29
@@ -10137,7 +10137,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 'Thank you. '
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -10169,8 +10169,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.7587
-        y: 1046.6094
+        x: 1354.1057
+        y: 954.83594
         width: 160
         height: 30
     - id: 56
@@ -10236,8 +10236,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1046.457
+        x: 1182.428
+        y: 1028.1073
         width: 160
         height: 30
     - id: 57
@@ -11386,7 +11386,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 719.8095
-        y: 1917.4663
+        y: 1922.9209
         width: 160
         height: 30
     - id: 75
@@ -11452,8 +11452,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1099.6484
+        x: 1091.3761
+        y: 1142.3188
         width: 160
         height: 30
     - id: 76
@@ -11521,8 +11521,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1149.6484
+        x: 1024.2954
+        y: 1238.5308
         width: 160
         height: 30
     - id: 77
@@ -11588,8 +11588,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.7587
-        y: 1100.4929
+        x: 1379.0536
+        y: 1044.934
         width: 160
         height: 30
     - id: 78
@@ -11661,13 +11661,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.361
-        y: 1152.1035
+        x: 1302.0541
+        y: 1133.1469
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 331.62057}
-    canvasZoom: 0.6100004
+    canvasScrollPosition: {x: 564.42175, y: 674.183}
+    canvasZoom: 0.5500004
   - id: 11
     fields:
     - title: Title
@@ -12652,8 +12652,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 72.97548, y: 37.704548}
-    canvasZoom: 1.1499999
+    canvasScrollPosition: {x: 0, y: 107.46265}
+    canvasZoom: 0.6700003
   - id: 12
     fields:
     - title: Title
@@ -15167,8 +15167,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 356.35968
-        y: 1709.3695
+        x: 417.65002
+        y: 1754.5306
         width: 160
         height: 30
     - id: 83
@@ -16660,8 +16660,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1346.9185
-        y: 1653.571
+        x: 1343.6927
+        y: 1656.7969
         width: 160
         height: 30
     - id: 105
@@ -17746,7 +17746,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bar_BrandTalked"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -17757,8 +17757,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 106.451645}
-    canvasZoom: 0.30999997
+    canvasScrollPosition: {x: 190.90906, y: 295.4546}
+    canvasZoom: 0.22
   - id: 13
     fields:
     - title: Title

@@ -6122,7 +6122,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["Bar_BrandTalked"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -6133,8 +6133,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 839.02576, y: 1320.8923}
-    canvasZoom: 0.91000044
+    canvasScrollPosition: {x: 853.57324, y: 1500.1968}
+    canvasZoom: 0.6100007
   - id: 9
     fields:
     - title: Title
@@ -6319,272 +6319,6 @@ MonoBehaviour:
         y: 180.62207
         width: 160
         height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 8
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: Do Cybermen still need something to eat?
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: sequence
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 9
-        originDialogueID: 3
-        destinationConversationID: 9
-        destinationDialogueID: 4
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1048.7587
-        y: 895.7777
-        width: 160
-        height: 30
-    - id: 4
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 8
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: New flavors? Are you forgetting that we don't need and can't eat human
-          food?
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Delay({{end}})
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 9
-        originDialogueID: 4
-        destinationConversationID: 9
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1048.7587
-        y: 948.1307
-        width: 160
-        height: 30
-    - id: 5
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 8
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: 'Haha! My dear Coleman, although we are the immortal body of Cyber
-          AI, our brain is still human! The yearning for food is always there! '
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Delay({{end}})
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 9
-        originDialogueID: 5
-        destinationConversationID: 9
-        destinationDialogueID: 6
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1048.7587
-        y: 995.7778
-        width: 160
-        height: 30
-    - id: 6
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 8
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: LyingChance
-        value: 0
-        type: 1
-        typeString: CustomFieldType_Number
-      - title: Dialogue Text
-        value: That's why I've added all kinds of flavors and spices to the nutrient
-          solution - Brand always called it "L'Oreal"! Look, this is the new "Thanksgiving
-          turkey" flavor! And this is the "Summer Watermelon" flavor! Try it!
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Delay({{end}})
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: ScanText
-        value: scan
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: EventGuid
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 9
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1048.7587
-        y: 1047.0437
-        width: 160
-        height: 30
     - id: 17
       fields:
       - title: Title
@@ -6612,7 +6346,7 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: Thanks Frank, but I'm off to work in Sin City.
+        value: See you, Frank. It works well. [Leave for Sin City]
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -6642,8 +6376,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 401.1171
-        y: 1495.3757
+        x: 666.9995
+        y: 1354.1993
         width: 160
         height: 30
     - id: 20
@@ -7323,8 +7057,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184.3875
-        y: 1210.9021
+        x: 668.5751
+        y: 1185.4558
         width: 160
         height: 30
     - id: 30
@@ -7380,7 +7114,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 30
+        destinationConversationID: 9
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -7388,8 +7128,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 185.95
-        y: 1273.0807
+        x: 670.1376
+        y: 1247.6344
         width: 160
         height: 30
     - id: 31
@@ -7891,11 +7631,149 @@ MonoBehaviour:
         type: 1
         typeString: CustomFieldType_Number
       - title: Dialogue Text
-        value: dialogue
+        value: Marvelous! Agent Brand would like to call this formula the "Summer
+          Watermelon" flavor. Are you ready?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
         value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 38
+        destinationConversationID: 9
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 670.9519
+        y: 1070.9054
+        width: 160
+        height: 30
+    - id: 39
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 8
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: Yeah.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: sequence
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: ScanText
+        value: scan
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 9
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 9
+        originDialogueID: 39
+        destinationConversationID: 9
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 670.9519
+        y: 1120.9054
+        width: 160
+        height: 30
+    - id: 40
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: LyingChance
+        value: 0
+        type: 1
+        typeString: CustomFieldType_Number
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 'The illusion starts to fade, and you wake up. It is almost midnight.
+          It is time to execute your mission.
+
+'
         type: 0
         typeString: CustomFieldType_Text
       - title: ScanText
@@ -7921,13 +7799,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 670.9519
-        y: 1070.9054
+        x: 670.1376
+        y: 1297.6344
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 233.1868, y: 560.7147}
-    canvasZoom: 0.8499999
+    canvasScrollPosition: {x: 68.40466, y: 284.20728}
+    canvasZoom: 0.49000022
   - id: 10
     fields:
     - title: Title
@@ -10291,8 +10169,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.7587
-        y: 1046.6094
+        x: 1317.7422
+        y: 971.19946
         width: 160
         height: 30
     - id: 56
@@ -10358,8 +10236,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1046.457
+        x: 1182.428
+        y: 882.6528
         width: 160
         height: 30
     - id: 57
@@ -11508,7 +11386,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 719.8095
-        y: 1917.4663
+        y: 1922.9209
         width: 160
         height: 30
     - id: 75
@@ -11574,8 +11452,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1099.6484
+        x: 1121.1058
+        y: 1163.9404
         width: 160
         height: 30
     - id: 76
@@ -11643,8 +11521,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1018.0359
-        y: 1149.6484
+        x: 1024.2954
+        y: 1238.5308
         width: 160
         height: 30
     - id: 77
@@ -11710,8 +11588,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.7587
-        y: 1100.4929
+        x: 1339.0537
+        y: 1043.1158
         width: 160
         height: 30
     - id: 78
@@ -11783,13 +11661,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1276.361
-        y: 1152.1035
+        x: 1307.5085
+        y: 1125.874
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 331.62057}
-    canvasZoom: 0.6100004
+    canvasScrollPosition: {x: 72.9729, y: 787.74567}
+    canvasZoom: 0.37000045
   - id: 11
     fields:
     - title: Title
@@ -12774,8 +12652,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 72.97548, y: 37.704548}
-    canvasZoom: 1.1499999
+    canvasScrollPosition: {x: 0, y: 107.46265}
+    canvasZoom: 0.6700003
   - id: 12
     fields:
     - title: Title
